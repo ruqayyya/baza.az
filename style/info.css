@@ -1,0 +1,29 @@
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  border-right: transparent;
+  border-left: transparent;
+}
+.list-group-item .car-title h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.list-group-item div p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Jost", sans-serif;
+}
+.list-group-item .image {
+  gap: 20px;
+  vertical-align: super;
+}
+.list-group-item div:first-child p {
+  color: #768A9E;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}/*# sourceMappingURL=info.css.map */

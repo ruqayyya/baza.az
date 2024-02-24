@@ -1,0 +1,37 @@
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    border-right: transparent;
+    border-left: transparent;
+
+    .car-title {
+        h4 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+    }
+
+    div {
+        p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            font-family: "Jost", sans-serif;
+        }
+    }
+    .image {
+        gap: 20px;
+    }
+    div:first-child {
+        p {
+            color: #768A9E;
+        }
+    }
+}
+
+.font-weight-500 {
+    font-weight: 500 !important;
+}
